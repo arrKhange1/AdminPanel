@@ -23,7 +23,7 @@
 ## Использованные технологии:<br>
 ### Backend
 * C#
-* ASP.NET Core Web API
+* ASP.NET Core Web API (Client Side Rendering, SPA)
 * Entity Framework Core
 * Insomnia (аналог Postman)
 ### Frontend
