@@ -1,34 +1,34 @@
-# QuizWorker (Админ-панель)
-Основной идеей приложения* является создание админ-панели, на которой можно будет загружать/удалять уже созданные в Excel формате викторины.<br>
-Викторина создается по специальному шаблону, после чего парсится, и данные из Excel таблицы загружаются в таблицы БД.<br><br>
+# QuizWorker (a.k.a Admin Panel)
+The general idea of the application* is creating an admin panel responsible for uploading/removing existing quizzes in the Excel format. <br>
+A quiz is created via the template, after what it is parsed and the data is uploaded from the Excel table to the database tables.<br><br>
 
-Шаблон викторины:<br>
+The quiz template:<br>
 ![image](https://user-images.githubusercontent.com/73338488/179953063-997f4986-a9a7-4d72-99a4-beac99381800.png)<br>
-1 столбец - номер вопроса<br>
-2 столбец - вопрос<br>
-3-6 столбцы (3-й является правильным ответом) - ответы на вопрос<br><br>
+1st column - question number<br>
+2nd column - question<br>
+3rd-6th columns (3rd stands for the right answer) - question answers<br><br>
 
 
-Сама админ-панель:<br>
+The admin panel:<br>
 ![image](https://user-images.githubusercontent.com/73338488/179951779-b8ef826e-e655-4d31-8971-9ef54d7d9dd6.png)<br><br>
-Модальное окно загрузки викторины:<br>
+Quiz uploading modal window:<br>
 ![image](https://user-images.githubusercontent.com/73338488/179952028-ca3d18fc-1e98-499b-8068-2b5ca673a557.png)<br>
 
-## Из дополнительного функционала можно выделить:<br>
-* Пагинация
-* Валидация всего, включая загружаемый Excel файл
-* Авторизация пользователей
-* Разделение пользователей по ролям <br><br>
+## What can be highlighted from the additional functionality:<br>
+* Pagination
+* All validated, including Excel files uploading
+* User authorization
+* User roles <br><br>
 
-## Использованные технологии:<br>
+## Utilized technologies:<br>
 ### Backend
 * C#
 * ASP.NET Core Web API (Client Side Rendering, SPA)
 * Entity Framework Core
-* Insomnia (аналог Postman)
+* Insomnia (Postman analog) 
 ### Frontend
 * HTML & CSS (CSS Modules)
 * TypeScript
 * React TS
 
-\* - данный репозиторий является частью закрытого продукта, в разработке которого я участвовал на практике, поэтому здесь только моя часть этого продукта
+\* - this repo is a part of the private product I was taking part In development during my educational practice, so that's the reason here the only part of the initial project
