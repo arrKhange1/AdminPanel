@@ -1,5 +1,5 @@
 # QuizWorker (a.k.a Admin Panel)
-The general idea of the application* is creating an admin panel responsible for uploading/removing existing quizzes in the Excel format. <br>
+The main idea of the application* is creating an admin panel responsible for uploading/removing existing quizzes in the Excel format. <br>
 A quiz is created via the template, after what it is parsed and the data is uploaded from the Excel table to the database tables.<br><br>
 
 The quiz template:<br>
