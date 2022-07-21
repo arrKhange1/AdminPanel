@@ -3,7 +3,7 @@ The general idea of the application* is creating an admin panel responsible for 
 A quiz is created via the template, after what it is parsed and the data is uploaded from the Excel table to the database tables.<br><br>
 
 The quiz template:<br>
-![image](https://user-images.githubusercontent.com/73338488/179953063-997f4986-a9a7-4d72-99a4-beac99381800.png)<br>
+![image](https://user-images.githubusercontent.com/73338488/180271267-cb1f08d8-651d-4eb2-a327-bb539d24e4d2.png)<br>
 1st column - question number<br>
 2nd column - question<br>
 3rd-6th columns (3rd stands for the right answer) - question answers<br><br>
